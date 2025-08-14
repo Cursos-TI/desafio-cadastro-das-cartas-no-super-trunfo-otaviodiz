@@ -52,25 +52,25 @@ int main(){
 
         
         printf("Estado (A-H): \n");
-        scanf(" %1s", estado2);
+        scanf(" %1s", estado2); // Lê a letra do estado 2
 
         printf("Código da carta (ex: A01): \n");
-        scanf("%3s", codigo2);
+        scanf("%3s", codigo2); // Lê o código da carta 2
 
         printf("Nome da cidade: \n");
-        scanf(" %19s", nomeCidade2);
+        scanf(" %19s", nomeCidade2); // Lê o nome da cidade 2
 
         printf("População: \n");
-        scanf("%d", &populacao2);
+        scanf("%d", &populacao2); // Lê a população da cidade 2
 
         printf("A área é(em km²): \n");
-        scanf(" %f", &area2);
+        scanf(" %f", &area2); // Lê a área da cidade 2
 
         printf("O PIB é (em bilhões): \n");
-        scanf("%f", &pib2);
+        scanf("%f", &pib2); // Lê o PIB da cidade 2
 
         printf("O número de pontos turísticos: \n");
-        scanf("%d", &pontosTuristicos2);
+        scanf("%d", &pontosTuristicos2); // Lê os pontos turísticos 2
 
     // Mostra as informações da primeira carta
     printf("\n===== Carta 1 =====\n");
