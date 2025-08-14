@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main(){
-    printf("Desafio Super Trunfo!!\n");
+    printf("Desafio Super Trunfo!\n");
 
     char estado[2];
     char codigo[4];
